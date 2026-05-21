@@ -1,16 +1,16 @@
-# 💰 Financial Planning Dashboard
+# Financial Planning Dashboard
 
 A modern, interactive financial planning web application built with Next.js 14, TypeScript, TailwindCSS, and Recharts.
 
 ## Features
 
-✨ **Modern Dashboard UI**
+ **Modern Dashboard UI**
 - Dark gradient theme with glassmorphism cards
 - Smooth animations with Framer Motion
 - Responsive design for desktop and tablet
 - Real-time chart updates
 
-📊 **Financial Tools**
+**Financial Tools**
 - Monthly savings calculation
 - Budget allocation with interactive sliders
 - Pie chart visualization of allocations
@@ -18,7 +18,7 @@ A modern, interactive financial planning web application built with Next.js 14, 
 - Retirement projection with compound growth calculations
 - Timeline adjustment for goals (1-15 years)
 
-🎯 **Dashboard Sections**
+**Dashboard Sections**
 
 1. **Financial Input Form** - Enter your income, expenses, age, and goal targets
 2. **Allocation Sliders** - Distribute monthly savings across different goals
@@ -230,7 +230,7 @@ For questions or issues, please check the code comments and TypeScript types for
 
 ---
 
-Built with ❤️ using Next.js and TailwindCSS
+Built with  using Next.js and TailwindCSS
 npm run dev
 ```
 This will start the Vite dev server at `http://localhost:3000`
@@ -252,7 +252,7 @@ npm run dev
 # Frontend runs on http://localhost:3000
 ```
 
-## 🎯 Features
+## Features
 
 ### Financial Planning
 - **Income Analysis**: Calculates net income based on gross salary, taxes, and state-specific rates
@@ -266,11 +266,11 @@ npm run dev
 
 ### Goal Selection
 Choose from materialistic goals including:
-- 🏡 **House**: Down payment, EMI, maintenance, furnishings
-- 🚗 **Car**: Purchase, insurance, maintenance
-- ✈️ **Travel**: Quarterly, semi-annual, or annual trips
-- 💎 **Personal**: Wedding, education, health, hobbies
-- 🎯 **Lifestyle**: Dining, shopping, tech & gadgets
+- **House**: Down payment, EMI, maintenance, furnishings
+- **Car**: Purchase, insurance, maintenance
+- **Travel**: Quarterly, semi-annual, or annual trips
+- **Personal**: Wedding, education, health, hobbies
+- **Lifestyle**: Dining, shopping, tech & gadgets
 
 ### Visualization
 - **Pie Chart**: Visual breakdown of monthly allocation
@@ -288,7 +288,7 @@ Supports state-specific tax calculations for:
 - OR: 9.9% state tax
 - And more with default 5% fallback
 
-## 🤖 AI Integration
+## AI Integration
 
 The application includes a backend service for AI-powered recommendations:
 
@@ -351,7 +351,7 @@ The `server.js` file includes a placeholder `getAIResponse()` function. To integ
    PORT=5000
    ```
 
-## 📊 Financial Calculations
+## Financial Calculations
 
 ### Net Income Calculation
 1. **Gross Annual**: Your starting salary
@@ -374,7 +374,7 @@ The `server.js` file includes a placeholder `getAIResponse()` function. To integ
 - **Styling**: Inline CSS with dark theme
 - **Build Tool**: Vite
 
-## 📁 File Descriptions
+## File Descriptions
 
 ### Core Files
 - **finances.jsx**: Main React component containing all UI logic, state management, and chart components
@@ -391,7 +391,7 @@ The `server.js` file includes a placeholder `getAIResponse()` function. To integ
 - **aiService.js**: Functions for AI service communication
 - **constants.js**: Application-wide constants (if used)
 
-## 🎨 Styling
+## Styling
 
 The application uses a sophisticated dark theme with gold accents:
 - Primary Color: #C9A96E (Gold)
@@ -399,7 +399,7 @@ The application uses a sophisticated dark theme with gold accents:
 - Text Color: #F5F0E8 (Light cream)
 - Accent Colors: Various shades for different categories
 
-## 🔧 Troubleshooting
+## Troubleshooting
 
 ### Issue: "Cannot find module 'Chart.js'"
 **Solution**: Make sure Chart.js is loaded from CDN in index.html. The script is already included.
@@ -420,7 +420,7 @@ The application uses a sophisticated dark theme with gold accents:
 3. Ensure `#root` div exists in index.html
 4. Check that finances.jsx is being loaded correctly
 
-## 📈 Future Enhancements
+## Future Enhancements
 
 - [ ] Real database integration for saving user profiles
 - [ ] Authentication system for user accounts
@@ -431,18 +431,18 @@ The application uses a sophisticated dark theme with gold accents:
 - [ ] Mobile app version
 - [ ] Integration with real financial APIs (Plaid, etc.)
 
-## 📝 License
+##  License
 
 MIT License - Feel free to use and modify for your projects.
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit issues and pull requests.
 
-## 📞 Support
+## Support
 
 For questions or issues, please open an issue in the repository.
 
 ---
 
-**Happy Planning! 💸**
+**Happy Planning!**
